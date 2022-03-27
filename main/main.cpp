@@ -4,32 +4,27 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d;
+    int a, b, c;
 
-	cout << "Input 'a' " << endl;
+	cout << "Input a " << endl;
 	cin >> a;
 
-	cout << "Input 'b' " << endl;
+	cout << "Input b " << endl;
 	cin >> b;
 
-	cout << "Input 'c' " << endl;
+	cout << "Input c " << endl;
 	cin >> c;
 
-	cout << "Input 'd' " << endl;
-	cin >> d;
 
 
-	if (a > b && a > c && a > d) {
+	if (a > b && a > c) {
 		cout << "variable 'a' is the biggest." << endl;
 	}
-	else if (b > a && b > c && b > d) {
+	else if (b > a && b > c) {
 		cout << "variable 'b' is the biggest." << endl;
 	}
-	else if (c > a && c > b && c > d) {
-		cout << "variable 'c' is the biggest." << endl;
-	}
 	else{
-		cout << "variable 'd' is the biggest." << endl;
+		cout << "variable 'c' is the biggest." << endl;
 	}
 }
 
